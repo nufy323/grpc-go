@@ -26,9 +26,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/proto"
-	helloworld "google.golang.org/grpc/examples/helloworld/helloworld"
-	hwmock "google.golang.org/grpc/examples/helloworld/mock_helloworld"
-	"google.golang.org/grpc/internal/grpctest"
+	helloworld "google.golang.org/grpc/1291/examples/helloworld/helloworld"
+	hwmock "google.golang.org/grpc/1291/examples/helloworld/mock_helloworld"
+	"google.golang.org/grpc/1291/internal/grpctest"
 )
 
 type s struct {

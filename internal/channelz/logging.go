@@ -21,7 +21,7 @@ package channelz
 import (
 	"fmt"
 
-	"google.golang.org/grpc/internal/grpclog"
+	"google.golang.org/grpc/1291/internal/grpclog"
 )
 
 // Info logs through grpclog.Info and adds a trace event if channelz is on.

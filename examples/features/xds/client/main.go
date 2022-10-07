@@ -28,10 +28,10 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
+	"google.golang.org/grpc/1291"
+	pb "google.golang.org/grpc/1291/examples/helloworld/helloworld"
 
-	_ "google.golang.org/grpc/xds/experimental" // To install the xds resolvers and balancers.
+	_ "google.golang.org/grpc/1291/xds/experimental" // To install the xds resolvers and balancers.
 )
 
 const (

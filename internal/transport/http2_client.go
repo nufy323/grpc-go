@@ -33,16 +33,16 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/syscall"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
+	"google.golang.org/grpc/1291/codes"
+	"google.golang.org/grpc/1291/credentials"
+	"google.golang.org/grpc/1291/internal"
+	"google.golang.org/grpc/1291/internal/channelz"
+	"google.golang.org/grpc/1291/internal/syscall"
+	"google.golang.org/grpc/1291/keepalive"
+	"google.golang.org/grpc/1291/metadata"
+	"google.golang.org/grpc/1291/peer"
+	"google.golang.org/grpc/1291/stats"
+	"google.golang.org/grpc/1291/status"
 )
 
 // clientConnectionCounter counts the number of connections a client has

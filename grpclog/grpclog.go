@@ -29,7 +29,7 @@ package grpclog // import "google.golang.org/grpc/grpclog"
 import (
 	"os"
 
-	"google.golang.org/grpc/internal/grpclog"
+	"google.golang.org/grpc/1291/internal/grpclog"
 )
 
 func init() {

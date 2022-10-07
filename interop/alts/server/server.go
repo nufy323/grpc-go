@@ -25,12 +25,12 @@ import (
 	"net"
 	"strings"
 
-	grpc "google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/alts"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/interop"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/tap"
+	grpc "google.golang.org/grpc/1291"
+	"google.golang.org/grpc/1291/credentials/alts"
+	"google.golang.org/grpc/1291/grpclog"
+	"google.golang.org/grpc/1291/interop"
+	testpb "google.golang.org/grpc/1291/interop/grpc_testing"
+	"google.golang.org/grpc/1291/tap"
 )
 
 const (

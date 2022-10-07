@@ -24,14 +24,14 @@ import (
 
 	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/balancer/balancergroup"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
-	"google.golang.org/grpc/xds/internal/testutils"
+	"google.golang.org/grpc/1291/balancer"
+	"google.golang.org/grpc/1291/balancer/roundrobin"
+	"google.golang.org/grpc/1291/connectivity"
+	"google.golang.org/grpc/1291/resolver"
+	"google.golang.org/grpc/1291/xds/internal"
+	"google.golang.org/grpc/1291/xds/internal/balancer/balancergroup"
+	xdsclient "google.golang.org/grpc/1291/xds/internal/client"
+	"google.golang.org/grpc/1291/xds/internal/testutils"
 )
 
 var (

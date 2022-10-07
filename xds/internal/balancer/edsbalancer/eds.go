@@ -26,15 +26,15 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/buffer"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/xds/internal/balancer/lrs"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
+	"google.golang.org/grpc/1291/balancer"
+	"google.golang.org/grpc/1291/balancer/roundrobin"
+	"google.golang.org/grpc/1291/connectivity"
+	"google.golang.org/grpc/1291/internal/buffer"
+	"google.golang.org/grpc/1291/internal/grpclog"
+	"google.golang.org/grpc/1291/resolver"
+	"google.golang.org/grpc/1291/serviceconfig"
+	"google.golang.org/grpc/1291/xds/internal/balancer/lrs"
+	xdsclient "google.golang.org/grpc/1291/xds/internal/client"
 )
 
 const (

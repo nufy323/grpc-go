@@ -19,14 +19,14 @@
 package edsbalancer
 
 import (
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/internal/grpclog"
-	xdsinternal "google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/balancer/lrs"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
+	"google.golang.org/grpc/1291"
+	"google.golang.org/grpc/1291/attributes"
+	"google.golang.org/grpc/1291/balancer"
+	"google.golang.org/grpc/1291/internal/grpclog"
+	xdsinternal "google.golang.org/grpc/1291/xds/internal"
+	"google.golang.org/grpc/1291/xds/internal/balancer/lrs"
+	xdsclient "google.golang.org/grpc/1291/xds/internal/client"
+	"google.golang.org/grpc/1291/xds/internal/client/bootstrap"
 )
 
 // xdsClientInterface contains only the xds_client methods needed by EDS

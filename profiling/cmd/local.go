@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"os"
 
-	"google.golang.org/grpc/grpclog"
+	"google.golang.org/grpc/1291/grpclog"
 )
 
 func loadSnapshot(snapshotFileName string) (*snapshot, error) {

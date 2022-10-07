@@ -27,7 +27,7 @@ import (
 	endpointpb "github.com/envoyproxy/go-control-plane/envoy/api/v2/endpoint"
 	typepb "github.com/envoyproxy/go-control-plane/envoy/type"
 	"github.com/golang/protobuf/ptypes"
-	"google.golang.org/grpc/xds/internal"
+	"google.golang.org/grpc/1291/xds/internal"
 )
 
 // OverloadDropConfig contains the config to drop overloads.

@@ -26,9 +26,9 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc"
-	rlsgrpc "google.golang.org/grpc/balancer/rls/internal/proto/grpc_lookup_v1"
-	rlspb "google.golang.org/grpc/balancer/rls/internal/proto/grpc_lookup_v1"
+	"google.golang.org/grpc/1291"
+	rlsgrpc "google.golang.org/grpc/1291/balancer/rls/internal/proto/grpc_lookup_v1"
+	rlspb "google.golang.org/grpc/1291/balancer/rls/internal/proto/grpc_lookup_v1"
 )
 
 const defaultDialTimeout = 5 * time.Second

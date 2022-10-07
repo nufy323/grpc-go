@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
+	"google.golang.org/grpc/1291"
+	"google.golang.org/grpc/1291/internal/backoff"
+	"google.golang.org/grpc/1291/internal/grpclog"
+	"google.golang.org/grpc/1291/keepalive"
+	"google.golang.org/grpc/1291/xds/internal/client/bootstrap"
 )
 
 // Options provides all parameters required for the creation of an xDS client.

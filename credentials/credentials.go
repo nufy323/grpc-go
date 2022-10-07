@@ -29,7 +29,7 @@ import (
 	"net"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/internal"
+	"google.golang.org/grpc/1291/internal"
 )
 
 // PerRPCCredentials defines the common interface for the credentials which need to

@@ -25,10 +25,10 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/grpc/codes"
-	altspb "google.golang.org/grpc/credentials/alts/internal/proto/grpc_gcp"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/status"
+	"google.golang.org/grpc/1291/codes"
+	altspb "google.golang.org/grpc/1291/credentials/alts/internal/proto/grpc_gcp"
+	"google.golang.org/grpc/1291/peer"
+	"google.golang.org/grpc/1291/status"
 )
 
 const (

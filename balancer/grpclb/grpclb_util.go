@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/resolver"
+	"google.golang.org/grpc/1291/balancer"
+	"google.golang.org/grpc/1291/resolver"
 )
 
 // The parent ClientConn should re-resolve when grpclb loses connection to the

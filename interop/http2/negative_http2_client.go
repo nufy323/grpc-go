@@ -31,12 +31,12 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/interop"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/status"
+	"google.golang.org/grpc/1291"
+	"google.golang.org/grpc/1291/codes"
+	"google.golang.org/grpc/1291/grpclog"
+	"google.golang.org/grpc/1291/interop"
+	testpb "google.golang.org/grpc/1291/interop/grpc_testing"
+	"google.golang.org/grpc/1291/status"
 )
 
 var (

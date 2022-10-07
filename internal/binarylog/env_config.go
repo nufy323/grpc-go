@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"google.golang.org/grpc/grpclog"
+	"google.golang.org/grpc/1291/grpclog"
 )
 
 // NewLoggerFromConfigString reads the string and build a logger. It can be used

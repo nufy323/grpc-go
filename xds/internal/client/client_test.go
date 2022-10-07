@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
-	"google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/fakeserver"
+	"google.golang.org/grpc/1291"
+	"google.golang.org/grpc/1291/internal/grpctest"
+	"google.golang.org/grpc/1291/xds/internal/client/bootstrap"
+	"google.golang.org/grpc/1291/xds/internal/testutils"
+	"google.golang.org/grpc/1291/xds/internal/testutils/fakeserver"
 
 	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 )

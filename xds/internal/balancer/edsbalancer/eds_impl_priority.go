@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/grpclog"
+	"google.golang.org/grpc/1291/balancer"
+	"google.golang.org/grpc/1291/balancer/base"
+	"google.golang.org/grpc/1291/connectivity"
+	"google.golang.org/grpc/1291/grpclog"
 )
 
 // handlePriorityChange handles priority after EDS adds/removes a

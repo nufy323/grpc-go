@@ -23,9 +23,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/google"
-	"google.golang.org/grpc/internal/grpctest"
+	"google.golang.org/grpc/1291"
+	"google.golang.org/grpc/1291/credentials/google"
+	"google.golang.org/grpc/1291/internal/grpctest"
 
 	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 	structpb "github.com/golang/protobuf/ptypes/struct"

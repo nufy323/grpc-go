@@ -22,7 +22,7 @@ import (
 	"bytes"
 	"testing"
 
-	core "google.golang.org/grpc/credentials/alts/internal"
+	core "google.golang.org/grpc/1291/credentials/alts/internal"
 )
 
 // cryptoTestVector is struct for a GCM test vector

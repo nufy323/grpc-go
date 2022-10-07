@@ -23,11 +23,11 @@ import (
 	"net"
 	"testing"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
+	"google.golang.org/grpc/1291/balancer"
+	"google.golang.org/grpc/1291/balancer/roundrobin"
+	"google.golang.org/grpc/1291/connectivity"
+	"google.golang.org/grpc/1291/resolver"
+	"google.golang.org/grpc/1291/resolver/manual"
 )
 
 var _ balancer.V2Balancer = &funcBalancer{}

@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"os"
 
-	"google.golang.org/grpc/grpclog"
+	"google.golang.org/grpc/1291/grpclog"
 )
 
 // Logger is the global binary logger. It can be used to get binary logger for

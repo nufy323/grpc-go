@@ -31,16 +31,16 @@ import (
 	"time"
 
 	durationpb "github.com/golang/protobuf/ptypes/duration"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	lbpb "google.golang.org/grpc/balancer/grpclb/grpc_lb_v1"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/resolver/dns"
-	"google.golang.org/grpc/resolver"
+	"google.golang.org/grpc/1291"
+	"google.golang.org/grpc/1291/balancer"
+	lbpb "google.golang.org/grpc/1291/balancer/grpclb/grpc_lb_v1"
+	"google.golang.org/grpc/1291/connectivity"
+	"google.golang.org/grpc/1291/credentials"
+	"google.golang.org/grpc/1291/grpclog"
+	"google.golang.org/grpc/1291/internal"
+	"google.golang.org/grpc/1291/internal/backoff"
+	"google.golang.org/grpc/1291/internal/resolver/dns"
+	"google.golang.org/grpc/1291/resolver"
 )
 
 const (

@@ -29,12 +29,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"google.golang.org/grpc/1291"
+	"google.golang.org/grpc/1291/codes"
+	"google.golang.org/grpc/1291/internal/envconfig"
+	"google.golang.org/grpc/1291/metadata"
+	"google.golang.org/grpc/1291/status"
+	testpb "google.golang.org/grpc/1291/test/grpc_testing"
 )
 
 func enableRetry() func() {

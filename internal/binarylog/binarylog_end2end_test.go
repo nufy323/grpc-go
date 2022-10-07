@@ -30,14 +30,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/binarylog/grpc_binarylog_v1"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/binarylog"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/metadata"
-	testpb "google.golang.org/grpc/stats/grpc_testing"
-	"google.golang.org/grpc/status"
+	"google.golang.org/grpc/1291"
+	pb "google.golang.org/grpc/1291/binarylog/grpc_binarylog_v1"
+	"google.golang.org/grpc/1291/grpclog"
+	"google.golang.org/grpc/1291/internal/binarylog"
+	"google.golang.org/grpc/1291/internal/grpctest"
+	"google.golang.org/grpc/1291/metadata"
+	testpb "google.golang.org/grpc/1291/stats/grpc_testing"
+	"google.golang.org/grpc/1291/status"
 )
 
 type s struct {

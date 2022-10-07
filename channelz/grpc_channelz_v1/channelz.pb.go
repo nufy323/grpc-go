@@ -11,9 +11,9 @@ import (
 	duration "github.com/golang/protobuf/ptypes/duration"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "google.golang.org/grpc/1291"
+	codes "google.golang.org/grpc/1291/codes"
+	status "google.golang.org/grpc/1291/status"
 	math "math"
 )
 
