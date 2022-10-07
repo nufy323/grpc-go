@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/internal/backoff"
 	"google.golang.org/grpc/1291/internal/grpclog"
 	"google.golang.org/grpc/1291/keepalive"

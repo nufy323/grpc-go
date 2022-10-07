@@ -49,7 +49,7 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 	spb "google.golang.org/genproto/googleapis/rpc/status"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/balancer/roundrobin"
 	"google.golang.org/grpc/1291/codes"
 	"google.golang.org/grpc/1291/connectivity"

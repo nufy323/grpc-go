@@ -23,7 +23,7 @@ import (
 	"net"
 	"strconv"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	_ "google.golang.org/grpc/1291/balancer/grpclb"
 	"google.golang.org/grpc/1291/credentials"
 	"google.golang.org/grpc/1291/credentials/alts"

@@ -26,7 +26,7 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	pb "google.golang.org/grpc/1291/examples/features/proto/echo"
 	"google.golang.org/grpc/1291/health"
 	healthpb "google.golang.org/grpc/1291/health/grpc_health_v1"

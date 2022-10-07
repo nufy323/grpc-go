@@ -31,7 +31,7 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/codes"
 	"google.golang.org/grpc/1291/grpclog"
 	"google.golang.org/grpc/1291/interop"

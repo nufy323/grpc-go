@@ -57,7 +57,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	bm "google.golang.org/grpc/1291/benchmark"
 	"google.golang.org/grpc/1291/benchmark/flags"
 	testpb "google.golang.org/grpc/1291/benchmark/grpc_testing"

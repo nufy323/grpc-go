@@ -28,7 +28,7 @@ import (
 	lrsgrpc "github.com/envoyproxy/go-control-plane/envoy/service/load_stats/v2"
 	lrspb "github.com/envoyproxy/go-control-plane/envoy/service/load_stats/v2"
 	"github.com/golang/protobuf/ptypes"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/grpclog"
 	"google.golang.org/grpc/1291/internal/backoff"
 	"google.golang.org/grpc/1291/xds/internal"

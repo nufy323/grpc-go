@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"io"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/grpclog"
 	metricspb "google.golang.org/grpc/1291/stress/grpc_testing"
 )

@@ -35,7 +35,7 @@ import (
 	durationpb "github.com/golang/protobuf/ptypes/duration"
 	structpb "github.com/golang/protobuf/ptypes/struct"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/codes"
 	"google.golang.org/grpc/1291/status"
 	"google.golang.org/grpc/1291/xds/internal"

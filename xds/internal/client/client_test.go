@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/internal/grpctest"
 	"google.golang.org/grpc/1291/xds/internal/client/bootstrap"
 	"google.golang.org/grpc/1291/xds/internal/testutils"

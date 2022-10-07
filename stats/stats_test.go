@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/internal/grpctest"
 	"google.golang.org/grpc/1291/metadata"
 	"google.golang.org/grpc/1291/stats"

@@ -25,7 +25,7 @@ import (
 	"net"
 	"testing"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/internal"
 	"google.golang.org/grpc/1291/resolver"
 	"google.golang.org/grpc/1291/serviceconfig"

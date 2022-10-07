@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"golang.org/x/net/http2"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	_ "google.golang.org/grpc/1291/balancer/grpclb"
 	"google.golang.org/grpc/1291/balancer/roundrobin"
 	"google.golang.org/grpc/1291/codes"

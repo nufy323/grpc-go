@@ -25,7 +25,7 @@ import (
 	"os"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/grpclog"
 	ppb "google.golang.org/grpc/1291/profiling/proto"
 )

@@ -1,3 +1,4 @@
+//go:build go1.11
 // +build go1.11
 
 /*
@@ -28,7 +29,7 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	pb "google.golang.org/grpc/1291/examples/helloworld/helloworld"
 
 	_ "google.golang.org/grpc/1291/xds/experimental" // To install the xds resolvers and balancers.

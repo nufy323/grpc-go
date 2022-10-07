@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/codes"
 	"google.golang.org/grpc/1291/status"
 	testpb "google.golang.org/grpc/1291/test/grpc_testing"

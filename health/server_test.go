@@ -21,7 +21,7 @@ package health_test
 import (
 	"testing"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/health"
 	healthgrpc "google.golang.org/grpc/1291/health/grpc_health_v1"
 	"google.golang.org/grpc/1291/internal/grpctest"

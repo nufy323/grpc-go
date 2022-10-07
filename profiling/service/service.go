@@ -31,7 +31,7 @@ import (
 	"errors"
 	"sync"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/grpclog"
 	"google.golang.org/grpc/1291/internal/profiling"
 	ppb "google.golang.org/grpc/1291/profiling/proto"

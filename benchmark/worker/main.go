@@ -30,7 +30,7 @@ import (
 	"strconv"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	testpb "google.golang.org/grpc/1291/benchmark/grpc_testing"
 	"google.golang.org/grpc/1291/codes"
 	"google.golang.org/grpc/1291/grpclog"

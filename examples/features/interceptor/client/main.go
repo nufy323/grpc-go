@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"golang.org/x/oauth2"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/credentials"
 	"google.golang.org/grpc/1291/credentials/oauth"
 	ecpb "google.golang.org/grpc/1291/examples/features/proto/echo"

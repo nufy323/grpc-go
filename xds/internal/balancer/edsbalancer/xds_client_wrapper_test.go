@@ -26,7 +26,7 @@ import (
 	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 	"github.com/golang/protobuf/proto"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/attributes"
 	"google.golang.org/grpc/1291/balancer"
 	"google.golang.org/grpc/1291/resolver"

@@ -25,7 +25,7 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	pb "google.golang.org/grpc/1291/examples/features/proto/echo"
 	_ "google.golang.org/grpc/1291/health"
 	"google.golang.org/grpc/1291/resolver"

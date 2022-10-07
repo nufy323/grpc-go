@@ -27,7 +27,7 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	wrpb "github.com/golang/protobuf/ptypes/wrappers"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	channelzgrpc "google.golang.org/grpc/1291/channelz/grpc_channelz_v1"
 	channelzpb "google.golang.org/grpc/1291/channelz/grpc_channelz_v1"
 	"google.golang.org/grpc/1291/codes"

@@ -1,6 +1,5 @@
-// +build linux
-// +build !appengine
-// +build go1.11
+//go:build linux && !appengine && go1.11
+// +build linux,!appengine,go1.11
 
 /*
  *
@@ -33,7 +32,7 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	_ "google.golang.org/grpc/1291/balancer/grpclb"
 	"google.golang.org/grpc/1291/credentials"
 	"google.golang.org/grpc/1291/credentials/alts"

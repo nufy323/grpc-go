@@ -26,7 +26,7 @@ import (
 	"log"
 	"net"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	pb "google.golang.org/grpc/1291/examples/features/proto/echo"
 	profsvc "google.golang.org/grpc/1291/profiling/service"
 )

@@ -19,7 +19,7 @@
 package edsbalancer
 
 import (
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/attributes"
 	"google.golang.org/grpc/1291/balancer"
 	"google.golang.org/grpc/1291/internal/grpclog"

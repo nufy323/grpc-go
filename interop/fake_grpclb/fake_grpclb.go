@@ -28,7 +28,7 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	lbpb "google.golang.org/grpc/1291/balancer/grpclb/grpc_lb_v1"
 	"google.golang.org/grpc/1291/codes"
 	"google.golang.org/grpc/1291/credentials"

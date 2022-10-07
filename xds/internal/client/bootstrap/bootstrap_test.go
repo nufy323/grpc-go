@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/credentials/google"
 	"google.golang.org/grpc/1291/internal/grpctest"
 

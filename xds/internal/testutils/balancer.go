@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	envoy_api_v2_core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/balancer"
 	"google.golang.org/grpc/1291/connectivity"
 	"google.golang.org/grpc/1291/internal/wrr"

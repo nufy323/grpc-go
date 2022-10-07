@@ -26,7 +26,7 @@ import (
 	"os"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/channelz/service"
 	"google.golang.org/grpc/1291/resolver"
 	"google.golang.org/grpc/1291/resolver/manual"

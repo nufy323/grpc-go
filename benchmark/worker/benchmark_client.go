@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/benchmark"
 	testpb "google.golang.org/grpc/1291/benchmark/grpc_testing"
 	"google.golang.org/grpc/1291/benchmark/stats"

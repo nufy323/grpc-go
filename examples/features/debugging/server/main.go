@@ -25,7 +25,7 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/channelz/service"
 	"google.golang.org/grpc/1291/internal/grpcrand"
 

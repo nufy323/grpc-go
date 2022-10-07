@@ -26,7 +26,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	rlspb "google.golang.org/grpc/1291/balancer/rls/internal/proto/grpc_lookup_v1"
 	"google.golang.org/grpc/1291/balancer/rls/internal/testutils/fakeserver"
 	"google.golang.org/grpc/1291/codes"

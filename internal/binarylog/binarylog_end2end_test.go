@@ -30,7 +30,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	pb "google.golang.org/grpc/1291/binarylog/grpc_binarylog_v1"
 	"google.golang.org/grpc/1291/grpclog"
 	"google.golang.org/grpc/1291/internal/binarylog"

@@ -27,7 +27,7 @@ import (
 	"time"
 
 	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	pb "google.golang.org/grpc/1291/examples/helloworld/helloworld"
 	"google.golang.org/grpc/1291/status"
 )

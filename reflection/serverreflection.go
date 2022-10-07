@@ -50,7 +50,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/codes"
 	rpb "google.golang.org/grpc/1291/reflection/grpc_reflection_v1alpha"
 	"google.golang.org/grpc/1291/status"

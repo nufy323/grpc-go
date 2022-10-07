@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/resolver"
 	"google.golang.org/grpc/1291/resolver/manual"
 	"google.golang.org/grpc/1291/xds/internal/testutils"

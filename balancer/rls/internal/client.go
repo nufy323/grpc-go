@@ -22,7 +22,7 @@ import (
 	"context"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	rlspb "google.golang.org/grpc/1291/balancer/rls/internal/proto/grpc_lookup_v1"
 )
 

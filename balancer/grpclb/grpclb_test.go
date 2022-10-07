@@ -32,7 +32,7 @@ import (
 	"time"
 
 	durationpb "github.com/golang/protobuf/ptypes/duration"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/balancer"
 	lbgrpc "google.golang.org/grpc/1291/balancer/grpclb/grpc_lb_v1"
 	lbpb "google.golang.org/grpc/1291/balancer/grpclb/grpc_lb_v1"

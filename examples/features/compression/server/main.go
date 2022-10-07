@@ -26,7 +26,7 @@ import (
 	"log"
 	"net"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	_ "google.golang.org/grpc/1291/encoding/gzip" // Install the gzip compressor
 
 	pb "google.golang.org/grpc/1291/examples/features/proto/echo"

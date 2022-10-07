@@ -28,7 +28,7 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/balancer"
 	"google.golang.org/grpc/1291/connectivity"
 	"google.golang.org/grpc/1291/internal/grpclog"

@@ -29,7 +29,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	timestamppb "github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/balancer"
 	lbpb "google.golang.org/grpc/1291/balancer/grpclb/grpc_lb_v1"
 	"google.golang.org/grpc/1291/connectivity"

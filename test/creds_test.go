@@ -25,7 +25,7 @@ import (
 	"context"
 	"testing"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/credentials"
 	testpb "google.golang.org/grpc/1291/test/grpc_testing"
 	"google.golang.org/grpc/1291/testdata"

@@ -31,7 +31,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/codes"
 	"google.golang.org/grpc/1291/grpclog"
 	testpb "google.golang.org/grpc/1291/interop/grpc_testing"

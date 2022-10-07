@@ -26,7 +26,7 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	ecpb "google.golang.org/grpc/1291/examples/features/proto/echo"
 	hwpb "google.golang.org/grpc/1291/examples/helloworld/helloworld"
 )

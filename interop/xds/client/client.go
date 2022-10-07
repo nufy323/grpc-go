@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/grpclog"
 	testpb "google.golang.org/grpc/1291/interop/grpc_testing"
 	"google.golang.org/grpc/1291/peer"

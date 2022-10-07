@@ -29,7 +29,7 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/codes"
 	"google.golang.org/grpc/1291/metadata"
 	"google.golang.org/grpc/1291/status"

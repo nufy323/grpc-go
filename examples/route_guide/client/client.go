@@ -30,7 +30,7 @@ import (
 	"math/rand"
 	"time"
 
-	"google.golang.org/grpc/1291"
+	grpc "google.golang.org/grpc/1291"
 	"google.golang.org/grpc/1291/credentials"
 	pb "google.golang.org/grpc/1291/examples/route_guide/routeguide"
 	"google.golang.org/grpc/1291/testdata"
